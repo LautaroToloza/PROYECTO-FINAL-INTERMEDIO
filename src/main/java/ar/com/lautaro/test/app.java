@@ -126,7 +126,7 @@ public class app {
         System.out.println("3: Crear un archivo 'dat' con la lista de los usuarios.");
         System.out.println("4: Leer el archivo de texto.");
         System.out.println("5: Leer el archivo 'dat'.");
-        System.out.println("6: Devolver todos los datos del usuario ingresando su id.");
+        System.out.println("6: Buscar un usuario por su id, devolver sus datos.");
     }
 
     public static void ejecutarPrograma() {
@@ -142,7 +142,6 @@ public class app {
         List<Usuario> listaUsuarios = new ArrayList<>();
 
         UsuarioDAOImp usuarioDAO = new UsuarioDAOImp();
-        boolean seRegistro = false;
 
         try {
 
@@ -153,7 +152,6 @@ public class app {
                 switch (op) {
                     case 1:
                         usuarioDAO.registrar(usuarioEnvio);
-                        seRegistro = true;
                         break;
                     case 2:
                         listaUsuarios = usuarioDAO.recuperar();
