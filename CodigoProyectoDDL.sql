@@ -1,0 +1,14 @@
+CREATE DATABASE Base_Caso;
+USE Base_Caso;
+CREATE TABLE Usuario(
+	id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(45) NOT NULL,
+    apellido VARCHAR(45) NOT NULL,
+    email VARCHAR(80) NOT NULL,
+    telefono VARCHAR(45) NOT NULL
+);
+DESC Usuario;
+SELECT * FROM Usuario;
+DROP TABLE IF EXISTS Usuario;
+/*DROP TABLE IF EXISTS Usuario;*/
+
