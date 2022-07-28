@@ -5,6 +5,7 @@
 <p>Opción 3, realiza la acción de modificar.</p>
 <p>Opción 4, realiza la acción de eliminar.</p>
 <p>Opción 5, realiza la acción de salir del menú del CRUD.</p>
+https://github.com/LautaroToloza/PROYECTO-FINAL-INTERMEDIO/issues/1
 <h2>Segundo se ejecuta el menú de opciones de archivo.</h2>
 <p>Opción 0, realiza la acción de salir del menú de archivo.</p>
 <p>Opción 1, realiza la acción de ordenar.</p>
@@ -13,5 +14,6 @@
 <p>Opción 4, realiza la acción de leer el archivo de texto.</p>
 <p>Opción 5, realiza la acción de leer el archivo dat.</p>
 <p>Opción 6, realiza la acción de buscar por su id.</p>
+https://github.com/LautaroToloza/PROYECTO-FINAL-INTERMEDIO/issues/2
 <h3>-------------------------------------------------------------------------</h3>
 <h3>Finalizo el programa!!</h3>
